@@ -2,7 +2,7 @@
 
 This collects test results scattered across a variety of GCS buckets,
 stores them in a local SQLite database, and outputs newline-delimited
-JSON files for import into BigQuery. *See [overview](./overview.md) for more details.*
+JSON files for import into BigQuery. *See [overview](./OVERVIEW.md) for more details.*
 
 Results are stored in the [k8s-gubernator:build BigQuery dataset][Big Query Tables],
 which is publicly accessible.
@@ -136,3 +136,5 @@ gcloud pubsub subscriptions add-iam-policy-binding \
 [PubSub]: https://cloud.google.com/pubsub/docs
 [Subscriptions]: https://console.cloud.google.com/cloudpubsub/subscription/list?project=kubernetes-jenkins
 [Topic Creation]: https://cloud.google.com/storage/docs/reporting-changes#enabling
+
+
